@@ -1,0 +1,26 @@
+{
+    "name": "vult",
+    "displayName": "vult",
+    "description": "vult syntax",
+    "version": "0.0.1",
+    "publisher": "modlfo",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vult",
+            "aliases": ["vult", "vult"],
+            "extensions": [".vult"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vult",
+            "scopeName": "source.vult",
+            "path": "./syntaxes/vult.tmLanguage.json"
+        }]
+    }
+}
