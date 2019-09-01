@@ -24,7 +24,7 @@
       "keywords": {
          "patterns": [{
             "name": "keyword.control.vult",
-            "match": "\\b(if|then|else|while|return|mem|val)\\b"
+            "match": "\\b(if|then|else|while|return|mem|val|table)\\b"
          }]
       },
       "strings": {
