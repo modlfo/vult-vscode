@@ -65,7 +65,7 @@
       },
       "entities": {
          "patterns": [{
-               "match": "(fun|and|external)\\s+([a-zA-Z_0-9]+)",
+               "match": "(fun|and|external|type)\\s+([a-zA-Z_0-9]+)",
                "captures": {
                   "1": {
                      "name": "keyword.control.vult"
